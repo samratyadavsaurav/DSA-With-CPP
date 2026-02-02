@@ -9,7 +9,7 @@
 
 
 
-// ADDITION OF NUMBERS
+// OPERATIONS OF NUMBERS
 #include<iostream>
 using namespace std;
 int main() {
@@ -27,6 +27,7 @@ int main() {
   int division = a/b;
   int modulus = a%b;
 
+
   // Here,Modulus(%) gives remainder.
 
   cout<<"The sum is:"<<sum<<endl;
@@ -34,6 +35,7 @@ int main() {
   cout<<"The Multiplication is:"<<multiplication<<endl;
   cout<<"The Division is:"<<division<<endl;
   cout<<"The Modulus is:"<<modulus<<endl;
+  
 
 
   return 0;
